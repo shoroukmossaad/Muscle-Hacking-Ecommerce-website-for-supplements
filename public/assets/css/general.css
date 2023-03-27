@@ -1,0 +1,42 @@
+/* .App {
+  text-align: center;
+} */
+:root {
+    /* rgb(255, 109, 40) */
+    --main-text-color: rgb(255, 109, 40);
+    
+    --second-text-color: rgb(252, 255, 231);
+    --white:rgb(255,255,255);
+    --dark-color: rgb(52, 58, 64);
+    --transition: .7s ease-in;
+  }
+
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  a{
+
+    text-decoration: none !important;
+  }
+
+
+  .scrollable-menu::-webkit-scrollbar,body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+
+  .scrollable-menu::-webkit-scrollbar, body::-webkit-scrollbar-track {
+    background:  var(--white-color);        /* color of the tracking area */
+  }
+
+  .scrollable-menu::-webkit-scrollbar,body::-webkit-scrollbar-thumb {
+    background-color: gray;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 0px solid var(--dark-color);
+  }
+
+/* .container{
+    justify-content: space-between !important;
+} */

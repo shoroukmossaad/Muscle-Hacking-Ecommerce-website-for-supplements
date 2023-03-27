@@ -1,0 +1,50 @@
+
+.about-list a::before{
+
+    content: icon !important;
+  }
+  .about-list a {
+
+
+      content: "\00BB" !important ;
+      color: var(--second-text-color) !important;
+      /* display: block !important; */
+      /* font-size: larger; */
+
+  }
+  .about-list a:hover{
+
+      color: var(--main-text-color)!important;
+  }
+    .brand-about{
+      font-size:x-large ;
+      font-weight: bolder ;
+      color: var(--second-text-color);
+      width: fit-content;
+      border-bottom: solid thin var(--main-text-color) ;
+
+    }
+
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      color: var(--second-text-color);
+  }
+  h6{
+    color:var(--main-text-color);
+    font-weight: bolder !important;
+    padding-top: 1rem;
+
+  }
+  br{
+    border-bottom: solid thin var(--main-text-color) !important;
+
+  }.container-fluied-footer{
+    /* border-bottom: solid thin var(--main-text-color) ; */
+
+  }
+
+
